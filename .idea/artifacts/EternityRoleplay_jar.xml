@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="EternityRoleplay:jar">
+    <output-path>C:/server/plugins</output-path>
+    <root id="archive" name="EternityRoleplay.jar">
+      <element id="module-output" name="EternityRoleplay" />
+    </root>
+  </artifact>
+</component>

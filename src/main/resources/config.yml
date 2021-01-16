@@ -1,0 +1,133 @@
+#Settings for the time when you are in the character creation process
+spawn:
+  world: world
+  x: 0
+  y: 0
+  z: 0
+  yaw: 0
+  pitch: 0
+freeze: true
+hidePlayers: true
+blindness: false
+
+#Settings for the local chat
+#The symbol for anything can't be /
+localchat:
+  format: '&7{name} &b» &f{message}'
+  emotionFormat: '&e{name} {message}'
+  emotionSymbol: '*'
+  radius: 10
+  whisperRadius: 4
+  whisperSymbol: "whisper"
+  shoutRadius: 16
+  shoutSymbol: "shout"
+
+deleteCharacterOnDeath: false
+teleportToSpawnOnDeath: true
+
+FillInventory: true
+Menu Fill:
+  material: BLACK_STAINED_GLASS_PANE
+  displayName: '&r'
+NextPageItem:
+  material: GREEN_STAINED_GLASS_PANE
+  displayName: '&aNext page'
+  lore:
+    - '&7Click to get to the next page'
+PreviousPageItem:
+  material: RED_STAINED_GLASS_PANE
+  displayName: '&aNext page'
+  lore:
+    - '&7Click to get to the next page'
+Nations:
+  Example1:
+    spawn:
+      world: world
+      x: 0
+      y: 0
+      z: 0
+      yaw: 0
+      pitch: 0
+    Menu Item:
+      material: IRON_SWORD
+      displayName: '&aExample1'
+      lore:
+        - '&7This is the first example nation'
+  Example2:
+    spawn:
+      world: world
+      x: 1
+      y: 1
+      z: 1
+      yaw: 0
+      pitch: 0
+    Menu Item:
+      material: PAPER
+      displayName: '&aExample2'
+      lore:
+        - '&7This is the second example nation'
+Religions:
+  ExampleReligion:
+    Menu Item:
+      material: GOLD_INGOT
+      displayName: '&aExample Religion'
+      lore:
+        - '&7This is the first example religion'
+  ExampleReligion 2:
+    Menu Item:
+      material: IRON_INGOT
+      displayName: '&aExample Religion'
+      lore:
+          - '&7This is the first example religion'
+#Messages
+NoPerm: "&cYou don't have the permission to do this"
+UnknownSyntax: '&cThe command syntax that you provided is invalid'
+OfflinePlayer: '&cThe specified player is not online'
+RPSet Help:
+  - '&b&lCharacter Help'
+  - '&f  /rpset name <name>'
+  - '&f  /rpset age <age>'
+  - '&f  /rpset gender <M/F>'
+  - '&f  /rpset nation'
+  - '&f  /rpset religion'
+  - '&f  /rpset clear'
+  - '&f'
+  - '&b  /finishcharacter to create it'
+AlreadyCreated: '&cYou already have a character created'
+NameMaxLength: 25
+NameMinLength: 5
+InvalidName: '&cThe name you provided is invalid. You can only use letters in your name'
+NameTooLong: '&cThe name you provided is too long. You can only have {length} characters in it'
+NameTooShort: '&cThe name you provided is too short. You need to have at least {length} characters in it'
+Names Blacklist:
+  - 'Jon'
+  - 'Cristike'
+BlacklistName: "&cThe name you provided is blacklisted!"
+NameSet: '&fYou had set your characters name with success. You current name is &b{name}'
+MaxAge: 75
+MinAge: 16
+InvalidAge: '&cThe age you provided is invalid. You need to specify a number'
+AgeTooAdvanced: '&cThe age you provided is too advanced. You can only have {max} years old'
+AgeTooYoung: '&cThe age you provided is too young. You need to have at least {min} years old'
+AgeSet: '&fYou had set your characters age. Your current age is &b{age} years old'
+InvalidGender: '&cThe gender you provided is invalid. You need to specify an initial (M or F)'
+GenderSet: '&fYou had set your characters gender'
+NationSet: '&fYou had set your characters nation. You current nations is &b{nation}'
+ReligionSet: '&fYou had set your characters religion. You current nations is &b{religion}'
+RequirementsNotFulfilled: '&cYou still need to set details for your character'
+CharacterCreated: '&fYou created your character with success'
+RPInfo:
+  - '&b&l{name}'
+  - '&f  Name: &b{age}'
+  - '&f  Name: &b{gender}'
+  - '&f  Name: &b{nation}'
+  - '&f  Name: &b{religion}'
+  - '&f'
+  - '&7{player}'
+Male: Male
+Female: Female
+NoCharacter: "&cYou don't have a character, so you can't do this"
+AlreadyInLocalChat: '&cYou are already speaking in the local chat'
+ChatSetLocal: '&fYou are now speaking in the &blocal chat'
+AlreadyInGlobalChat: '&cYou are already speaking in the global chat'
+ChatSetGlobal: '&fYou are now speaking in the &bglobal chat'

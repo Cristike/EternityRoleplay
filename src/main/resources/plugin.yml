@@ -1,0 +1,16 @@
+name: EternityRoleplay
+version: ${project.version}
+main: me.cristike.eternityroleplay.Main
+api-version: 1.16
+authors: [Cristike]
+commands:
+  rpset:
+    description: Character details command
+  finishcharacter:
+    description: Create the character
+  card:
+    description: See the info about your character
+  localchat:
+    description: Speak in local chat
+  globalchat:
+    description: Speak in global chat
